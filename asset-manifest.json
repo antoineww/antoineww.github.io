@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.69bb6e45.css",
+    "main.js": "/static/js/main.07877c0a.js",
+    "static/media/header.jpg": "/static/media/header.35e3aa65c9b2ec5f1685.jpg",
+    "static/media/postgresql.png": "/static/media/postgresql.baa1c0c26f715f5a16bc.png",
+    "static/media/go.png": "/static/media/go.13b8aed13deb8037a743.png",
+    "static/media/html.png": "/static/media/html.723fd0717c9c1a7b746b.png",
+    "static/media/elixir.png": "/static/media/elixir.a92b41c9d52bb60ba943.png",
+    "static/media/wordpress.png": "/static/media/wordpress.2949e57a94962afbb789.png",
+    "static/media/java.png": "/static/media/java.91ebf5ac505f0a7f894c.png",
+    "static/media/bootstrap.png": "/static/media/bootstrap.e1875ecc548730ff2644.png",
+    "static/media/php.png": "/static/media/php.308b47bb8e2ef7649ac3.png",
+    "static/media/react.png": "/static/media/react.c56a3970b2fde73468a8.png",
+    "static/media/sql.png": "/static/media/sql.de672b1c2fcb1088e0e0.png",
+    "static/media/silex.png": "/static/media/silex.6be024084b136a1f2fbb.png",
+    "static/media/python.png": "/static/media/python.fca32dfbaf97f8b17428.png",
+    "static/media/react-native.png": "/static/media/react-native.b17608ef620d8228fd51.png",
+    "index.html": "/index.html",
+    "static/media/nextjs.svg": "/static/media/nextjs.54c7847380773d025aa9.svg",
+    "main.69bb6e45.css.map": "/static/css/main.69bb6e45.css.map",
+    "main.07877c0a.js.map": "/static/js/main.07877c0a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.69bb6e45.css",
+    "static/js/main.07877c0a.js"
+  ]
+}
