@@ -7,7 +7,8 @@ export const STRINGS = {
   occupation: "Software Engineer",
   find_out_more: "Find Out More",
   email: "antwilworks@gmail.com",
-  linkedin_url: "https://jm.linkedin.com/in/antoine-wiles-75308190",
+  url_linkedin: "https://jm.linkedin.com/in/antoine-wiles-75308190",
+  url_github: "https://github.com/antoineww",
 
   // headings
 
@@ -54,9 +55,10 @@ export const STRINGS = {
   deploy: "Deploy",
 
   // contact
-  contact_message: "Ready to start your next project with me? That's great!",
-  contact_instructions: "Send a message to my email or my LinkedIn.",
+  contact_message: "Ready?... Great! Start your next project with me.",
+  contact_instructions: "Send a message to my email or my LinkedIn and even checkout my GitHub demos.",
   linkedin: "LinkedIn",
+  github: "GitHub",
 }
 
 // const strings: Function = (desiredText: string) => {

@@ -326,8 +326,39 @@ const Contact: React.FC<PropsAppSection> = (props) => {
           <h3 className="contact-message">{STRINGS.contact_instructions}</h3>
         </div>
         <hr className="primary" />
-        <div className="row">
-          <div className="col-lg-4 col-lg col-lg-offset-2 text-center contact-link">
+        <div className="row row-reverse">
+
+          <div className="col-lg-3 col-lg text-center contact-link">
+            <a
+              href={STRINGS.url_github}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn bg-color-main-light shape-leaf-inv "
+            >
+              <i
+                className="fa fa-github fa-3x wow bounceIn"
+                data-wow-delay="1s"
+              ></i>
+              {STRINGS.github}
+            </a>
+          </div>
+
+          <div className="col-lg-3 col-lg text-center contact-link">
+            <a
+              href={STRINGS.url_linkedin}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn bg-color-main-light shape-leaf-inv "
+            >
+              <i
+                className="fa fa-linkedin-square fa-3x wow bounceIn"
+                data-wow-delay="1s"
+              ></i>
+              {STRINGS.linkedin}
+            </a>
+          </div>
+
+          <div className="col-lg-3 col-lg text-center contact-link">
             <a
               className="btn bg-color-main-dark shape-leaf-inv "
               href={`mailto:${STRINGS.email}`}
@@ -337,20 +368,6 @@ const Contact: React.FC<PropsAppSection> = (props) => {
                 data-wow-delay=".6s"
               ></i>
               {STRINGS.email}
-            </a>
-          </div>
-          <div className="col-lg-4 col-lg text-center contact-link">
-            <a
-              href={STRINGS.linkedin_url}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn bg-color-main-light shape-leaf "
-            >
-              <i
-                className="fa fa-linkedin-square fa-3x wow bounceIn"
-                data-wow-delay="1s"
-              ></i>
-              {STRINGS.linkedin}
             </a>
           </div>
         </div>

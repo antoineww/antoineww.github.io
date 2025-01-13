@@ -23,6 +23,8 @@
   --button-width-md: 2.5em;
   --button-width-lg: 5em;
 
+  --font-size-xxs: 0.8rem;
+  --font-size-xs: 1.0rem;
   --font-size-sm: 1.2rem;
   --font-size-md: 1.6rem;
   --font-size-lg: 2rem;
@@ -139,6 +141,11 @@ section,
   justify-content: center;
   flex-wrap: wrap;
 }
+
+.row-reverse {
+  flex-direction: row-reverse;
+}
+
 .col-lg-3 {
   width: 20vw;
   justify-content: start;
@@ -414,7 +421,7 @@ section,
 }
 
 .btn:hover:before {
-  transform: skewX(-45deg) translateX(30em);
+  transform: skewX(-45deg) translateX(35em);
   transition: all 1.2s ease-in-out;
 }
 /* Shiney button End*/
@@ -532,6 +539,11 @@ hr {
   max-width: 100%;
   max-height: 100%;
   margin: auto;
+}
+
+  
+p {
+  font-size: var(--font-size-sm);
 }
 
 @media screen and (max-width: 1000px) {
