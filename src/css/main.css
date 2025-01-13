@@ -27,7 +27,8 @@
   --font-size-xs: 1.0rem;
   --font-size-sm: 1.2rem;
   --font-size-md: 1.6rem;
-  --font-size-lg: 2rem;
+  --font-size-lg: 2.0rem;
+  --font-size-xl: 2.4rem;
 
   --padding-xxxs: 0.2em;
   --padding-xxs: 0.5em;
@@ -462,8 +463,14 @@ section,
 }
 
 .feature-skill-container {
-  width: var(--filling-w-sm);
-  padding: var(--padding-xs) var(--padding-sm);
+  width: var(--filling-w-md);
+  padding: var(--padding-xs) var(--padding-md);
+  margin: var(--padding-xs) 0 0 0;
+}
+
+.feature-skill {
+  font-size: var(--font-size-xl);
+  text-transform: capitalize;
 }
 
 hr {
