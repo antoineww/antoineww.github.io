@@ -1,3 +1,15 @@
+# Antoine Wiles Portfolio
+
+```
+# To start develop
+yarn start-dev
+
+
+# To deploy
+yarn deploy
+```
+
+#
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

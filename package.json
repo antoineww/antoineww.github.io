@@ -1,5 +1,5 @@
 {
-  "homepages":"https://antoineww.github.io",
+  "homepages": "https://antoineww.github.io",
   "name": "awstation",
   "version": "2.0.0",
   "private": true,
@@ -21,7 +21,7 @@
     "react-parallax": "^3.5.1",
     "react-scripts": "5.0.1",
     "react-use-scrollspy": "^3.1.1",
-    "serve": "^14.2.1",
+    "serve": "^14.2.4",
     "typescript": "~5.3.3"
   },
   "scripts": {
@@ -30,8 +30,7 @@
     "eject": "react-scripts eject",
     "start-dev": "react-scripts start",
     "start": "serve -s build",
-    
-    "predeploy":"npm run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
