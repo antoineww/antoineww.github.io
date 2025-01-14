@@ -322,13 +322,13 @@ const Contact: React.FC<PropsAppSection> = (props) => {
       <SectionHeading {...propsDefault} />
       <div className="container">
         <div className="col-lg-8 col-lg-offset-2 text-center">
-          <h3 className="contact-message">{STRINGS.contact_message}</h3>
-          <h3 className="contact-message">{STRINGS.contact_instructions}</h3>
+          <h2 className="contact-message">{STRINGS.contact_message}</h2>
+          <h2 className="contact-message">{STRINGS.contact_instructions}</h2>
         </div>
         <hr className="primary" />
         <div className="row row-reverse">
 
-          <div className="col-lg-3 col-lg text-center contact-link">
+          <div className="col-lg-3 col-lg col-sm-12 text-center contact-link">
             <a
               href={STRINGS.url_github}
               target="_blank"
@@ -343,7 +343,7 @@ const Contact: React.FC<PropsAppSection> = (props) => {
             </a>
           </div>
 
-          <div className="col-lg-3 col-lg text-center contact-link">
+          <div className="col-lg-3 col-lg col-sm-12 text-center contact-link">
             <a
               href={STRINGS.url_linkedin}
               target="_blank"
@@ -358,7 +358,7 @@ const Contact: React.FC<PropsAppSection> = (props) => {
             </a>
           </div>
 
-          <div className="col-lg-3 col-lg text-center contact-link">
+          <div className="col-lg-3 col-lg col-sm-12 text-center contact-link">
             <a
               className="btn bg-color-main-dark shape-leaf-inv "
               href={`mailto:${STRINGS.email}`}
