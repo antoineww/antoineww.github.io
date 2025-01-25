@@ -23,7 +23,7 @@ export const STRINGS = {
 
   // about
   years_experience:
-    "I've got the engineering skills & knowledge you need, with 3+ years of Experience",
+    "I've got the engineering skills & knowledge you need, with 10+ years of Experience",
   focus_motto:
     "Central focus on Good Design and Effective Implementation are my keys for quality software creation.",
   check_me_out: "Check me out!",
