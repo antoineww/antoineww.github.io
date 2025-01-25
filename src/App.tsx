@@ -333,7 +333,7 @@ const Contact: React.FC<PropsAppSection> = (props) => {
               href={STRINGS.url_github}
               target="_blank"
               rel="noopener noreferrer"
-              className="btn bg-color-main-light shape-leaf-inv "
+              className="btn bg-color-main-light shape-leaf-inv bg-color-secondary"
             >
               <i
                 className="fa fa-github fa-3x wow bounceIn"

@@ -708,4 +708,14 @@ p {
   .col-lg-3 {
     width: unset;
   }
+
+  .feature-skill {
+    font-size: var(--font-size-lg);
+    text-transform: capitalize;
+  }
+  
+  .contact-link a {
+    font-size: var(--font-size-xxs);
+
+  }
 }
