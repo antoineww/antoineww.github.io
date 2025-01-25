@@ -1,9 +1,10 @@
-$(window).on("load", function () {
+$(document).ready(function() {
   setupForToAnimateWriting()
   animateWriting()
   initScrollingAnimationOnIcons()
   updateSectionHeading()
-})
+});
+
 
 const setupForToAnimateWriting = () => {
   $("path").each((i, element) => {
