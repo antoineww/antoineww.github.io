@@ -1,20 +1,15 @@
-$(document).ready(function() {
-  setupForToAnimateWriting()
-  animateWriting()
-  initScrollingAnimationOnIcons()
-  updateSectionHeading()
-});
-
+const selectorSvgPath = ".header-content path"
+const selectorSvg = ".header-content svg"
 
 const setupForToAnimateWriting = () => {
-  $("path").each((i, element) => {
+  $(selectorSvgPath).each((i, element) => {
     const length = element.getTotalLength()
     $(element).css({ "stroke-dashoffset": length, "stroke-dasharray": length })
   })
 }
 
 const animateWriting = () => {
-  const letters = $("path")
+  const letters = $(selectorSvgPath)
   letters.each((i, element) => {
     $(element).animate(
       {
@@ -36,7 +31,7 @@ const clearStrokeDasharray = (element) =>
   $(element).css({ "stroke-dasharray": 0 })
 
 const animateFadeIn = () => {
-  $("svg").css({ fill: "white", transition: "5s" })
+  $(selectorSvg).css({ fill: "white", transition: "5s" })
 }
 
 const initScrollingAnimationOnIcons = (params) => {
@@ -61,3 +56,25 @@ const updateSectionHeading = () => {
   const sectionHeading = `I've got the engineering skills & knowledge you need with ${numberOfYears}+ years of Experience`
   $("#yearsExperience").text(sectionHeading)
 }
+
+const onReady = () => {
+  try{ setupForToAnimateWriting()       }catch(err){}
+  try{ animateWriting()                 }catch(err){}
+  try{ initScrollingAnimationOnIcons()  }catch(err){}
+  try{ updateSectionHeading()           }catch(err){}
+}
+
+const onReadyDelayed = () => {
+  let timerReady = setTimeout(()=>{
+    onReady()
+
+    clearTimeout(timerReady)
+    timer = null
+  },500)
+}
+
+
+$(document).ready(function() {
+  onReadyDelayed()
+});
+
