@@ -1,6 +1,6 @@
 # Antoine Wiles Portfolio
 
-As a versatile software engineer, my proficiency spans multiple programming languages, allowing me to tackle diverse challenges with ease.
+As a versatile software engineer, I possess proficiency in multiple programming languages, enabling me to tackle diverse challenges with ease. I am a Jamaican engineer currently living and working remotely in the Caribbean. My past job experience includes collaborating with coworkers stationed in various time zones around the world, such as MST, EST, and CET.
 
 My responsibilities encompass the full software development lifecycle, including building, maintaining, debugging, fixing, refactoring, and deploying applications. I take pride in my ability to deliver high-quality solutions that meet both technical and business requirements.
 
